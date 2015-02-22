@@ -1,0 +1,29 @@
+{
+  "name": "react-image-revolver",
+  "version": "0.0.0",
+  "dependencies": {
+    "cycle-array": "0.0.1"
+  },
+  "peerDependencies": {
+    "react": "^0.12.2"
+  },
+  "description": "Revolve through an array of images",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markhuge/react-image-revolver.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Mark Wilkerson <mark@segfawlt.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markhuge/react-image-revolver/issues"
+  },
+  "homepage": "https://github.com/markhuge/react-image-revolver"
+}
