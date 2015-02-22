@@ -5,10 +5,10 @@ var React   = require('react/addons'),
 
 module.exports = React.createClass({
   
-  getInitialState: function () { return { activeImage: '' }; },  
+  getInitialState: function () { return { activeImage: '' }; },
   
-  getDefaultProps: function () { 
-    return { width: '100px', height: '100px', interval: 1000 }
+  getDefaultProps: function () {
+    return { interval: 1000 }
   },
   
   componentDidMount: function () {
@@ -17,11 +17,9 @@ module.exports = React.createClass({
   },
   
   render: function () {
-    var style = { 
+    var style = {
       backgroundImage: 'url(' + this.state.activeImage + ')',
       backgroundRepeat: 'no-repeat',
-      width: this.props.width,
-      height: this.props.height
     };
     return div({ style: style }, this.state.activeImage);
   },
