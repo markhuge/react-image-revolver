@@ -1,11 +1,11 @@
 {
   "name": "react-image-revolver",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "cycle-array": "0.0.1"
   },
   "peerDependencies": {
-    "react": "^0.12.2"
+    "react": ">=0.12.2"
   },
   "description": "Revolve through an array of images",
   "main": "index.js",
