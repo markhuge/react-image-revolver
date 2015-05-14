@@ -1,7 +1,7 @@
 var React   = require('react/addons'),
     Cycle   = require('cycle-array'),
     cycle   = new Cycle(),
-    div     = React.DOM.div;
+    img     = React.DOM.img;
 
 module.exports = React.createClass({
   
@@ -17,11 +17,7 @@ module.exports = React.createClass({
   },
   
   render: function () {
-    var style = {
-      backgroundImage: 'url(' + this.state.activeImage + ')',
-      backgroundRepeat: 'no-repeat',
-    };
-    return div({ style: style }, this.state.activeImage);
+    return img({ src: this.state.activeImage });
   },
   
   swapImage: function () {
